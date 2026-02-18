@@ -3,6 +3,7 @@ export const siteConfig = {
   title: "Full Stack Developer",
   description: "Portfolio website of Abhrajit Ghosh",
   accentColor: "#1d4ed8",
+  resumeUrl: "/resume.pdf",
 
   social: {
     email: "abhrajitgh@gmail.com",
@@ -11,30 +12,14 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Computer Science undergraduate at KIIT with strong foundations in full-stack development, AI systems, and scalable backend architecture. Experienced in building production-ready applications using MERN, Flutter, and Python-based AI stacks. Passionate about solving real-world problems through efficient system design, intelligent automation, and clean code practices.",
+    "Pre-final year Computer Science Engineering student at KIIT with strong foundations in Full-stack development, AI systems, and scalable backend architecture. Experienced in building production-ready applications using MERN, Flutter, and Python-based AI stacks. Passionate about solving real-world problems through efficient system design, intelligent automation, and clean code practices.",
 
   skills: [
-    "Java",
     "Python",
-    "C",
-    "Dart",
-    "HTML",
-    "SQL",
+    "JavaScript",
     "Node.js",
     "Express.js",
-    "Flutter",
-    "Flask",
-    "Streamlit",
-    "MongoDB",
-    "PostgreSQL",
-    "Oracle",
-    "FAISS",
-    "ChromaDB",
-    "GitHub",
-    "Postman",
-    "VS Code",
-    "Vercel",
-    "Ubuntu",
+    "Flutter"
   ],
 
   projects: [
@@ -42,21 +27,21 @@ export const siteConfig = {
       name: "TaskHub – Freelance Task Management Platform",
       description:
         "Full-stack platform with role-based access where users can post tasks, apply as freelancers, and manage applications. Includes JWT + Google OAuth authentication, email verification, password reset, and real-time messaging using WebSockets.",
-      link: "https://github.com/u4ia-abhra",
+      link: "https://www.taskhub.digital/",
       skills: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
     },
     {
       name: "Agentic Enterprise Assistant",
       description:
         "Citation-grounded enterprise AI assistant using Retrieval-Augmented Generation (RAG) for document QA with hallucination control. Includes intent-based agent generating structured JSON outputs for automated workflows.",
-      link: "https://github.com/u4ia-abhra",
+      link: "https://sahayata.streamlit.app/",
       skills: ["Python", "Streamlit", "ChromaDB", "Hugging Face", "RAG"],
     },
     {
       name: "KRS Workspace – Digital Notice & MoM Management",
       description:
         "Mobile workspace application for organizational communication via notices and MoM records. Features structured metadata storage, Node.js backend integration, and push notifications for real-time updates.",
-      link: "https://github.com/u4ia-abhra",
+      link: "https://play.google.com/store/apps/details?id=com.krs.krsapp&pcampaignid=web_share",
       skills: ["Flutter", "Node.js", "Express", "REST API"],
     },
   ],

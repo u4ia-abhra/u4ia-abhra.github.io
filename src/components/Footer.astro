@@ -119,6 +119,19 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >
           </a>
         </div>
+        {
+          siteConfig.resumeUrl && (
+            <div>
+              <a
+                href={siteConfig.resumeUrl}
+                download
+                class="inline-flex items-center gap-2 rounded-lg bg-gray-900 px-4 py-2 text-sm font-semibold text-white transition-all duration-300 hover:bg-gray-700"
+              >
+                Download Resume
+              </a>
+            </div>
+          )
+        }
       </div>
 
       <div class="hidden md:block flex flex-col md:items-end gap-4">
